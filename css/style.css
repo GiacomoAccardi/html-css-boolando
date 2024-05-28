@@ -120,3 +120,12 @@ h2{
 .price-no{
     text-decoration: line-through;
 }
+
+.heart-ico{
+    font-size: 18pt;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right:0;
+    bottom: 500px;
+}
