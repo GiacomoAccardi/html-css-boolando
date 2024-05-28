@@ -123,6 +123,9 @@ img{
     display: block;
 }
 
+.heart-ico:hover{
+    background-color: rgb(255, 139, 139);
+}
 
 /*styling classes*/
 
