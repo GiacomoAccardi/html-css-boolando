@@ -88,6 +88,7 @@ img{
     position: relative;
 }
 
+
 .absolute{
     position: absolute;
     left: 0;
@@ -104,6 +105,22 @@ img{
 
 .t-end{
     text-align: end;
+}
+
+.visible{
+    display: block;
+}
+
+.hided{
+    display: none;
+}
+
+.content:hover .visible{
+    display: none;
+}
+
+.content:hover .hided{
+    display: block;
 }
 
 
