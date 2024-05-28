@@ -16,16 +16,34 @@ body{
 }
 
 .row{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.col33-around{
+    width: calc(100% / 3);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
 
 .col33{
     width: calc(100% / 3);
     color: white;
-    text-align: center;
+    padding:15px;
+}
+
+.col33-special{
+    width: calc(100% / 3);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside{
+    display: flex;
 }
 
 /*utility classes*/
@@ -41,7 +59,7 @@ ul{
 }
 
 .content{
-    padding: 15px;
+    position: relative;
 }
 
 .iconbox{
@@ -56,9 +74,40 @@ ul{
     margin-top: 5px;
 }
 
+.t-center{
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    left: 0;
+    bottom:50px
+}
+
+
 /*styling classes*/
 
 .bg-orange{
     background-color: rgb(255, 94, 0);
 }
 
+.lable{
+    padding: 5px;
+}
+
+.red{
+    background-color: red;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.green{
+    background-color: green;
+    width: 105px;
+    font-weight: bold;
+}
