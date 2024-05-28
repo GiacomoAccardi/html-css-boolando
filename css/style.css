@@ -33,6 +33,11 @@ body{
     padding:15px;
 }
 
+.col50{
+    width:calc(100% / 2);
+    padding: 15px;
+}
+
 .aside{
     display: flex;
 }
@@ -53,6 +58,11 @@ ul{
     position: relative;
 }
 
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+}
+
 .iconbox{
     text-align: end;
 }
@@ -63,6 +73,10 @@ ul{
 
 .mup5{
     margin-top: 5px;
+}
+
+.mup15{
+    margin-top: 15px;
 }
 
 .t-center{
@@ -78,6 +92,18 @@ img{
     position: absolute;
     left: 0;
     bottom:100px
+}
+
+.mbottom30{
+    margin-bottom: 60px;
+}
+
+.mbottom15{
+    margin-bottom: 15px;
+}
+
+.t-end{
+    text-align: end;
 }
 
 
@@ -129,3 +155,13 @@ h2{
     right:0;
     bottom: 500px;
 }
+
+footer{
+    background-color: rgb(20, 19, 19) ;
+}
+
+.ico-config{
+    font-size: 22px;
+}
+
+
